@@ -1,0 +1,162 @@
+{
+  "info": {
+    "name": "Laravel Full API (CRUD 5 Ops)",
+    "_postman_id": "crud-001",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:8000/api" },
+    { "key": "api_token", "value": "" }
+  ],
+  "item": [
+
+    {
+      "name": "POSTS - GET ALL",
+      "request": { "method": "GET", "url": "{{base_url}}/posts" }
+    },
+    {
+      "name": "POSTS - CREATE",
+      "request": { "method": "POST", "url": "{{base_url}}/posts" }
+    },
+    {
+      "name": "POSTS - GET ONE",
+      "request": { "method": "GET", "url": "{{base_url}}/posts/1" }
+    },
+    {
+      "name": "POSTS - UPDATE",
+      "request": { "method": "PUT", "url": "{{base_url}}/posts/1" }
+    },
+    {
+      "name": "POSTS - DELETE",
+      "request": { "method": "DELETE", "url": "{{base_url}}/posts/1" }
+    },
+
+    {
+      "name": "COMMENTS - GET ALL",
+      "request": { "method": "GET", "url": "{{base_url}}/comments" }
+    },
+    {
+      "name": "COMMENTS - CREATE",
+      "request": { "method": "POST", "url": "{{base_url}}/comments" }
+    },
+    {
+      "name": "COMMENTS - GET ONE",
+      "request": { "method": "GET", "url": "{{base_url}}/comments/1" }
+    },
+    {
+      "name": "COMMENTS - UPDATE",
+      "request": { "method": "PUT", "url": "{{base_url}}/comments/1" }
+    },
+    {
+      "name": "COMMENTS - DELETE",
+      "request": { "method": "DELETE", "url": "{{base_url}}/comments/1" }
+    },
+
+    {
+      "name": "USERS - GET ALL",
+      "request": { "method": "GET", "url": "{{base_url}}/users" }
+    },
+    {
+      "name": "USERS - CREATE",
+      "request": { "method": "POST", "url": "{{base_url}}/users" }
+    },
+    {
+      "name": "USERS - GET ONE",
+      "request": { "method": "GET", "url": "{{base_url}}/users/1" }
+    },
+    {
+      "name": "USERS - UPDATE",
+      "request": { "method": "PUT", "url": "{{base_url}}/users/1" }
+    },
+    {
+      "name": "USERS - DELETE",
+      "request": { "method": "DELETE", "url": "{{base_url}}/users/1" }
+    },
+
+    {
+      "name": "REPLIES - GET ALL",
+      "request": { "method": "GET", "url": "{{base_url}}/replies" }
+    },
+    {
+      "name": "REPLIES - CREATE",
+      "request": { "method": "POST", "url": "{{base_url}}/replies" }
+    },
+    {
+      "name": "REPLIES - GET ONE",
+      "request": { "method": "GET", "url": "{{base_url}}/replies/1" }
+    },
+    {
+      "name": "REPLIES - UPDATE",
+      "request": { "method": "PUT", "url": "{{base_url}}/replies/1" }
+    },
+    {
+      "name": "REPLIES - DELETE",
+      "request": { "method": "DELETE", "url": "{{base_url}}/replies/1" }
+    },
+
+    {
+      "name": "REACTIONS - GET ALL",
+      "request": { "method": "GET", "url": "{{base_url}}/reactions" }
+    },
+    {
+      "name": "REACTIONS - CREATE",
+      "request": { "method": "POST", "url": "{{base_url}}/reactions" }
+    },
+    {
+      "name": "REACTIONS - GET ONE",
+      "request": { "method": "GET", "url": "{{base_url}}/reactions/1" }
+    },
+    {
+      "name": "REACTIONS - UPDATE",
+      "request": { "method": "PUT", "url": "{{base_url}}/reactions/1" }
+    },
+    {
+      "name": "REACTIONS - DELETE",
+      "request": { "method": "DELETE", "url": "{{base_url}}/reactions/1" }
+    },
+
+    {
+      "name": "REACTION TYPES - GET ALL",
+      "request": { "method": "GET", "url": "{{base_url}}/reaction-types" }
+    },
+    {
+      "name": "REACTION TYPES - CREATE",
+      "request": { "method": "POST", "url": "{{base_url}}/reaction-types" }
+    },
+    {
+      "name": "REACTION TYPES - GET ONE",
+      "request": { "method": "GET", "url": "{{base_url}}/reaction-types/1" }
+    },
+    {
+      "name": "REACTION TYPES - UPDATE",
+      "request": { "method": "PUT", "url": "{{base_url}}/reaction-types/1" }
+    },
+    {
+      "name": "REACTION TYPES - DELETE",
+      "request": { "method": "DELETE", "url": "{{base_url}}/reaction-types/1" }
+    },
+
+    {
+      "name": "POST STATUS - GET ALL",
+      "request": { "method": "GET", "url": "{{base_url}}/post-statuses" }
+    },
+    {
+      "name": "POST STATUS - CREATE",
+      "request": { "method": "POST", "url": "{{base_url}}/post-statuses" }
+    },
+    {
+      "name": "POST STATUS - GET ONE",
+      "request": { "method": "GET", "url": "{{base_url}}/post-statuses/1" }
+    },
+    {
+      "name": "POST STATUS - UPDATE",
+      "request": { "method": "PUT", "url": "{{base_url}}/post-statuses/1" }
+    },
+    {
+      "name": "POST STATUS - DELETE",
+      "request": { "method": "DELETE", "url": "{{base_url}}/post-statuses/1" }
+    }
+    
+
+  ]
+}
